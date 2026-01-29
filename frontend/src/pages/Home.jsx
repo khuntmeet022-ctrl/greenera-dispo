@@ -84,7 +84,7 @@ const Home = () => {
                 <Link key={category.id} to={`/products?category=${category.id}`}>
                   <Card className="hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border-green-100 h-full group">
                     <CardContent className="p-6 text-center space-y-3">
-                      <div className="w-16 h-16 mx-auto bg-green-100 rounded-xl flex items-center justify-center group-hover:bg-green-200 transition-colors">
+                      <div className="w-16 h-16 flex items-center justify-center group-hover:bg-green-200 transition-colors mx-auto rounded-xl !bg-[#D3E2D8]">
                         {IconComponent && <IconComponent className="w-8 h-8 text-green-700" />}
                       </div>
                       <h3 className="font-semibold text-green-900">{category.name}</h3>
