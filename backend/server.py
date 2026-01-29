@@ -37,6 +37,36 @@ class StatusCheck(BaseModel):
 class StatusCheckCreate(BaseModel):
     client_name: str
 
+class QuoteRequestCreate(BaseModel):
+    businessName: str
+    contactName: str
+    email: EmailStr
+    phone: str
+    businessType: Optional[str] = ""
+    category: Optional[str] = ""
+    specificProducts: Optional[str] = ""
+    quantity: Optional[str] = ""
+    deliveryLocation: Optional[str] = ""
+    additionalNotes: Optional[str] = ""
+
+class QuoteRequest(BaseModel):
+    model_config = ConfigDict(extra="ignore")  # Ignore MongoDB's _id field
+    
+    id: str = Field(default_factory=lambda: str(uuid.uuid4()))
+    businessName: str
+    contactName: str
+    email: str
+    phone: str
+    businessType: str = ""
+    category: str = ""
+    specificProducts: str = ""
+    quantity: str = ""
+    deliveryLocation: str = ""
+    additionalNotes: str = ""
+    status: str = "pending"
+    createdAt: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))
+    updatedAt: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))
+
 # Add your routes to the router instead of directly to app
 @api_router.get("/")
 async def root():
