@@ -11,7 +11,7 @@ const Home = () => {
     <div className="min-h-screen">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-green-50 via-cream-50 to-green-100 py-20 overflow-hidden">
-        <div className="absolute inset-0 opacity-10">
+        <div className="absolute inset-0 !opacity-[14%]">
           <div className="absolute top-20 left-10 w-72 h-72 bg-green-400 rounded-full blur-3xl"></div>
           <div className="absolute bottom-20 right-10 w-96 h-96 bg-green-600 rounded-full blur-3xl"></div>
         </div>
@@ -91,8 +91,8 @@ const Home = () => {
                       <p className="text-sm text-gray-600">{category.description}</p>
                     </CardContent>
                   </Card>
-                </Link>
-              );
+                </Link>);
+
             })}
           </div>
         </div>
@@ -122,8 +122,8 @@ const Home = () => {
                     <h3 className="font-semibold text-lg text-green-900">{feature.title}</h3>
                     <p className="text-gray-600 text-sm">{feature.description}</p>
                   </CardContent>
-                </Card>
-              );
+                </Card>);
+
             })}
           </div>
         </div>
@@ -142,13 +142,13 @@ const Home = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {sustainabilityStats.map((stat, index) => (
-              <div key={index} className="text-center space-y-2">
+            {sustainabilityStats.map((stat, index) =>
+            <div key={index} className="text-center space-y-2">
                 <div className="text-5xl font-bold text-green-300">{stat.value}</div>
                 <div className="text-xl font-semibold">{stat.label}</div>
                 <div className="text-sm text-green-200">{stat.description}</div>
               </div>
-            ))}
+            )}
           </div>
         </div>
       </section>
@@ -180,8 +180,8 @@ const Home = () => {
           </Card>
         </div>
       </section>
-    </div>
-  );
+    </div>);
+
 };
 
 export default Home;
