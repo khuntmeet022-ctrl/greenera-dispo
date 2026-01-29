@@ -96,6 +96,66 @@ async def get_status_checks():
     
     return status_checks
 
+# Quote Request Routes
+@api_router.post("/quotes", response_model=QuoteRequest, status_code=201)
+async def create_quote_request(quote_data: QuoteRequestCreate):
+    """Create a new quote request"""
+    try:
+        quote_obj = QuoteRequest(**quote_data.model_dump())
+        
+        # Convert to dict and serialize datetime to ISO string for MongoDB
+        doc = quote_obj.model_dump()
+        doc['createdAt'] = doc['createdAt'].isoformat()
+        doc['updatedAt'] = doc['updatedAt'].isoformat()
+        
+        result = await db.quote_requests.insert_one(doc)
+        
+        if result.inserted_id:
+            return quote_obj
+        else:
+            raise HTTPException(status_code=500, detail="Failed to create quote request")
+    except Exception as e:
+        logger.error(f"Error creating quote request: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+@api_router.get("/quotes", response_model=List[QuoteRequest])
+async def get_quote_requests():
+    """Get all quote requests"""
+    try:
+        quotes = await db.quote_requests.find({}, {"_id": 0}).sort("createdAt", -1).to_list(1000)
+        
+        # Convert ISO string timestamps back to datetime objects
+        for quote in quotes:
+            if isinstance(quote['createdAt'], str):
+                quote['createdAt'] = datetime.fromisoformat(quote['createdAt'])
+            if isinstance(quote['updatedAt'], str):
+                quote['updatedAt'] = datetime.fromisoformat(quote['updatedAt'])
+        
+        return quotes
+    except Exception as e:
+        logger.error(f"Error fetching quote requests: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+@api_router.get("/quotes/{quote_id}", response_model=QuoteRequest)
+async def get_quote_request(quote_id: str):
+    """Get a specific quote request by ID"""
+    try:
+        quote = await db.quote_requests.find_one({"id": quote_id}, {"_id": 0})
+        if quote:
+            # Convert ISO string timestamps back to datetime objects
+            if isinstance(quote['createdAt'], str):
+                quote['createdAt'] = datetime.fromisoformat(quote['createdAt'])
+            if isinstance(quote['updatedAt'], str):
+                quote['updatedAt'] = datetime.fromisoformat(quote['updatedAt'])
+            return QuoteRequest(**quote)
+        else:
+            raise HTTPException(status_code=404, detail="Quote request not found")
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error(f"Error fetching quote request: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
 # Include the router in the main app
 app.include_router(api_router)
 
