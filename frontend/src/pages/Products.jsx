@@ -134,7 +134,7 @@ const Products = () => {
                     {/* Product Icon */}
                     <div className="w-full h-32 bg-gradient-to-br from-green-100 to-green-200 rounded-lg flex items-center justify-center group-hover:from-green-200 group-hover:to-green-300 transition-all">
                       <div className="text-4xl font-bold text-green-700 opacity-50">
-                        {product.compartments ? `${product.compartments}CP` : product.name.charAt(0)}
+                        <img src=`${product.src}`>
                       </div>
                     </div>
 
