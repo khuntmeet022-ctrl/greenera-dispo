@@ -131,11 +131,19 @@ const Products = () => {
               {filteredProducts.map((product) => (
                 <Card key={product.id} className="hover:shadow-xl transition-all duration-300 border-green-100 group">
                   <CardContent className="p-6 space-y-4">
-                    {/* Product Icon */}
-                    <div className="w-full h-32 bg-gradient-to-br from-green-100 to-green-200 rounded-lg flex items-center justify-center group-hover:from-green-200 group-hover:to-green-300 transition-all">
-                      <div className="text-4xl font-bold text-green-700 opacity-50">
-                        {product.compartments ? `${product.compartments}CP` : product.name.charAt(0)}
-                      </div>
+                    {/* Product Image */}
+                    <div className="w-full h-32 bg-gradient-to-br from-green-100 to-green-200 rounded-lg flex items-center justify-center group-hover:from-green-200 group-hover:to-green-300 transition-all overflow-hidden">
+                      {product.image ? (
+                        <img 
+                          src={product.image} 
+                          alt={product.name}
+                          className="w-full h-full object-cover"
+                        />
+                      ) : (
+                        <div className="text-4xl font-bold text-green-700 opacity-50">
+                          {product.compartments ? `${product.compartments}CP` : product.name.charAt(0)}
+                        </div>
+                      )}
                     </div>
 
                     {/* Product Info */}
