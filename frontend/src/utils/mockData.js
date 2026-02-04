@@ -36,7 +36,7 @@ export const productCategories = [
 export const products = [
   // Round Plates
   { id: 'rp-6', category: 'round-plates', name: '6 Inch Round Plate', diameter: '151 MM', depth: '18 MM', material: 'Sugarcane Bagasse', image: 'https://customer-assets.emergentagent.com/job_eco-tableware-4/artifacts/s3gfbt69_GreenEra%20Products%201-1%20%281%29.png' },
-  { id: 'rp-7', category: 'round-plates', name: '7 Inch Round Plate', diameter: '175 MM', depth: '19.5 MM', material: 'Sugarcane Bagasse', image: 'https://customer-assets.emergentagent.com/job_eco-tableware-4/artifacts/n6wuzor0_rp-7.jpg' },
+  { id: 'rp-7', category: 'round-plates', name: '7 Inch Round Plate', diameter: '175 MM', depth: '19.5 MM', material: 'Sugarcane Bagasse', image: 'https://customer-assets.emergentagent.com/job_eco-tableware-4/artifacts/ixdi6x9l_GreenEra%20Products%201-1%20%282%29.png' },
   { id: 'rp-9', category: 'round-plates', name: '9 Inch Round Plate', diameter: '225 MM', depth: '18 MM', material: 'Sugarcane Bagasse', image: 'https://customer-assets.emergentagent.com/job_eco-tableware-4/artifacts/cqex9tbt_rp-9.jpg' },
   { id: 'rp-10', category: 'round-plates', name: '10 Inch Round Plate', diameter: '255 MM', depth: '23 MM', material: 'Sugarcane Bagasse', image: 'https://customer-assets.emergentagent.com/job_eco-tableware-4/artifacts/j9ymoj1k_rp-10.jpg' },
   { id: 'rp-11', category: 'round-plates', name: '11 Inch Round Plate', diameter: '280 MM', depth: '23 MM', material: 'Sugarcane Bagasse', image: 'https://customer-assets.emergentagent.com/job_eco-tableware-4/artifacts/kpnucb2w_rp-11.jpg' },
