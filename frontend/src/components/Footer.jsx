@@ -67,15 +67,16 @@ const Footer = () => {
             <ul className="space-y-3 text-sm">
               <li className="flex items-start gap-2 text-green-200">
                 <Mail className="w-4 h-4 mt-0.5 flex-shrink-0" />
-                <span>contact@greenera.com</span>
+                <span>info@greenera.com</span>
               </li>
               <li className="flex items-start gap-2 text-green-200">
                 <Phone className="w-4 h-4 mt-0.5 flex-shrink-0" />
-                <span>+1 (555) 123-4567</span>
+                <span>+91 93132 74748
+                </span>
               </li>
               <li className="flex items-start gap-2 text-green-200">
                 <MapPin className="w-4 h-4 mt-0.5 flex-shrink-0" />
-                <span>123 Eco Street, Green City</span>
+                <span>Gokuldham Main Road, Smrat Industrial Area, Rajkot - 360004 Gujrat - INDIA</span>
               </li>
             </ul>
           </div>
@@ -85,8 +86,7 @@ const Footer = () => {
           <p>&copy; {currentYear} GreenEra. All rights reserved. Committed to a sustainable future.</p>
         </div>
       </div>
-    </footer>
-  );
+    </footer>);
 };
 
 export default Footer;
