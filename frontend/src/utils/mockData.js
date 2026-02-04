@@ -59,9 +59,10 @@ export const products = [
   
   // Bowls
   { id: 'b-medium', category: 'bowls', name: 'Medium Bowl', diameter: '115 MM', depth: '38 MM', volume: '210 ML', material: 'Sugarcane Bagasse', image: 'https://customer-assets.emergentagent.com/job_eco-tableware-4/artifacts/dziiineb_17.png' },
-  { id: 'b-exim', category: 'bowls', name: 'Exim Bowl', diameter: '139 MM', depth: '39 MM', volume: '230 ML', material: 'Sugarcane Bagasse', image: 'https://images.pexels.com/photos/8015706/pexels-photo-8015706.jpeg?w=400' },
-  { id: 'b-large', category: 'bowls', name: 'Large Bowl', diameter: '151 MM', depth: '41 MM', volume: '350 ML', material: 'Sugarcane Bagasse', image: 'https://images.pexels.com/photos/4157303/pexels-photo-4157303.jpeg?w=400' },
-  { id: 'b-smart', category: 'bowls', name: 'Smart Bowl', diameter: '88 MM', depth: '33 MM', volume: '120 ML', material: 'Sugarcane Bagasse', image: 'https://images.pexels.com/photos/8015706/pexels-photo-8015706.jpeg?w=400' },
+  { id: 'b-exim', category: 'bowls', name: 'Exim Bowl', diameter: '139 MM', depth: '39 MM', volume: '230 ML', material: 'Sugarcane Bagasse', image: 'https://customer-assets.emergentagent.com/job_eco-tableware-4/artifacts/nfijcs8d_Exim%20Bowl.png' },
+  { id: 'b-large', category: 'bowls', name: 'Large Bowl', diameter: '151 MM', depth: '41 MM', volume: '350 ML', material: 'Sugarcane Bagasse', image: 'https://customer-assets.emergentagent.com/job_eco-tableware-4/artifacts/23d4xiw5_Large%20Bowl.png' },
+  { id: 'b-smart', category: 'bowls', name: 'Smart Bowl', diameter: '88 MM', depth: '33 MM', volume: '120 ML', material: 'Sugarcane Bagasse', image: 'https://customer-assets.emergentagent.com/job_eco-tableware-4/artifacts/hbg325ku_Smart%20Bowl.png' },
+  { id: 'b-mediam', category: 'bowls', name: 'Mediam Bowl', diameter: '107 MM', depth: '40 MM', volume: '180 ML', material: 'Sugarcane Bagasse', image: 'https://customer-assets.emergentagent.com/job_eco-tableware-4/artifacts/79vlvdj2_MEDIAM%20Bowl%202nd.png' },
   { id: 'b-dona', category: 'bowls', name: 'Dona Square Bowl', size: '105 X 105 MM', depth: '29 MM', volume: '120 ML', material: 'Sugarcane Bagasse', image: 'https://customer-assets.emergentagent.com/job_eco-tableware-4/artifacts/therdzms_Dona%20Square%20Bowl.png' },
   
   // Clam Shells
