@@ -62,13 +62,13 @@ export const products = [
   { id: 'b-exim', category: 'bowls', name: 'Exim Bowl', diameter: '139 MM', depth: '39 MM', volume: '230 ML', material: 'Sugarcane Bagasse', image: 'https://images.pexels.com/photos/8015706/pexels-photo-8015706.jpeg?w=400' },
   { id: 'b-large', category: 'bowls', name: 'Large Bowl', diameter: '151 MM', depth: '41 MM', volume: '350 ML', material: 'Sugarcane Bagasse', image: 'https://images.pexels.com/photos/4157303/pexels-photo-4157303.jpeg?w=400' },
   { id: 'b-smart', category: 'bowls', name: 'Smart Bowl', diameter: '88 MM', depth: '33 MM', volume: '120 ML', material: 'Sugarcane Bagasse', image: 'https://images.pexels.com/photos/8015706/pexels-photo-8015706.jpeg?w=400' },
-  { id: 'b-dona', category: 'bowls', name: 'Dona Square Bowl', size: '105 X 105 MM', depth: '29 MM', volume: '120 ML', material: 'Sugarcane Bagasse', image: 'https://images.pexels.com/photos/4157303/pexels-photo-4157303.jpeg?w=400' },
+  { id: 'b-dona', category: 'bowls', name: 'Dona Square Bowl', size: '105 X 105 MM', depth: '29 MM', volume: '120 ML', material: 'Sugarcane Bagasse', image: 'https://customer-assets.emergentagent.com/job_eco-tableware-4/artifacts/therdzms_Dona%20Square%20Bowl.png' },
   
   // Clam Shells
-  { id: 'cs-6x6', category: 'clam-shells', name: '6" X 6" Clam Shell', size: '153 X 153 MM', depth: '42 MM', volume: '500 ML', totalDepth: '76 MM', material: 'Sugarcane Bagasse', image: 'https://images.pexels.com/photos/18060203/pexels-photo-18060203.jpeg?w=400' },
-  { id: 'cs-9x6', category: 'clam-shells', name: '9" X 6" Clam Shell', size: '153 X 232 MM', depth: '42 MM', volume: '800 ML', totalDepth: '73 MM', material: 'Sugarcane Bagasse', image: 'https://images.pexels.com/photos/18060201/pexels-photo-18060201.jpeg?w=400' },
-  { id: 'cs-9x9', category: 'clam-shells', name: '9" X 9" Clam Shell', size: '230 X 235 MM', depth: '44 MM', volume: '1300 ML', totalDepth: '74 MM', material: 'Sugarcane Bagasse', image: 'https://images.pexels.com/photos/18060203/pexels-photo-18060203.jpeg?w=400' },
-  { id: 'cs-9x9-3cp', category: 'clam-shells', name: '9" X 9" 3CP Clam Shell', size: '230 X 230 MM', depth: '45 MM', volume: '1300 ML', totalDepth: '80 MM', compartments: 3, material: 'Sugarcane Bagasse', image: 'https://images.pexels.com/photos/5208281/pexels-photo-5208281.jpeg?w=400' }
+  { id: 'cs-6x6', category: 'clam-shells', name: '6" X 6" Clam Shell', size: '153 X 153 MM', depth: '42 MM', volume: '500 ML', totalDepth: '76 MM', material: 'Sugarcane Bagasse', image: 'https://customer-assets.emergentagent.com/job_eco-tableware-4/artifacts/1mds1zvu_6_%20X%206_%20Clam%20Shell.png' },
+  { id: 'cs-9x6', category: 'clam-shells', name: '9" X 6" Clam Shell', size: '153 X 232 MM', depth: '42 MM', volume: '800 ML', totalDepth: '73 MM', material: 'Sugarcane Bagasse', image: 'https://customer-assets.emergentagent.com/job_eco-tableware-4/artifacts/te48rmyp_9_%20X%206_%20Clam%20Shell.png' },
+  { id: 'cs-9x9', category: 'clam-shells', name: '9" X 9" Clam Shell', size: '230 X 235 MM', depth: '44 MM', volume: '1300 ML', totalDepth: '74 MM', material: 'Sugarcane Bagasse', image: 'https://customer-assets.emergentagent.com/job_eco-tableware-4/artifacts/a7vtz3sa_9_%20X%209_%20Clam%20Shell.png' },
+  { id: 'cs-9x9-3cp', category: 'clam-shells', name: '9" X 9" 3CP Clam Shell', size: '230 X 230 MM', depth: '45 MM', volume: '1300 ML', totalDepth: '80 MM', compartments: 3, material: 'Sugarcane Bagasse', image: 'https://customer-assets.emergentagent.com/job_eco-tableware-4/artifacts/pxxgxrtq_9_%20X%209_%203CP%20Clam%20Shell.png' }
 ];
 
 export const sustainabilityStats = [
