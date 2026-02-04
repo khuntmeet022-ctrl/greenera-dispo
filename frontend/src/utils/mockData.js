@@ -35,11 +35,11 @@ export const productCategories = [
 
 export const products = [
   // Round Plates
-  { id: 'rp-6', category: 'round-plates', name: '6 Inch Round Plate', diameter: '151 MM', depth: '18 MM', material: 'Sugarcane Bagasse', image: 'https://images.unsplash.com/photo-1727021024941-2119e2f233be?w=400' },
-  { id: 'rp-7', category: 'round-plates', name: '7 Inch Round Plate', diameter: '175 MM', depth: '19.5 MM', material: 'Sugarcane Bagasse', image: 'https://images.unsplash.com/photo-1727021024931-90c226e8448d?w=400' },
-  { id: 'rp-9', category: 'round-plates', name: '9 Inch Round Plate', diameter: '225 MM', depth: '18 MM', material: 'Sugarcane Bagasse', image: 'https://images.pexels.com/photos/6990568/pexels-photo-6990568.jpeg?w=400' },
-  { id: 'rp-10', category: 'round-plates', name: '10 Inch Round Plate', diameter: '255 MM', depth: '23 MM', material: 'Sugarcane Bagasse', image: 'https://images.pexels.com/photos/6990484/pexels-photo-6990484.jpeg?w=400' },
-  { id: 'rp-11', category: 'round-plates', name: '11 Inch Round Plate', diameter: '280 MM', depth: '23 MM', material: 'Sugarcane Bagasse', image: 'https://images.pexels.com/photos/14415382/pexels-photo-14415382.jpeg?w=400' },
+  { id: 'rp-6', category: 'round-plates', name: '6 Inch Round Plate', diameter: '151 MM', depth: '18 MM', material: 'Sugarcane Bagasse', image: 'https://customer-assets.emergentagent.com/job_eco-tableware-4/artifacts/hyyw88an_rp-6.jpg' },
+  { id: 'rp-7', category: 'round-plates', name: '7 Inch Round Plate', diameter: '175 MM', depth: '19.5 MM', material: 'Sugarcane Bagasse', image: 'https://customer-assets.emergentagent.com/job_eco-tableware-4/artifacts/n6wuzor0_rp-7.jpg' },
+  { id: 'rp-9', category: 'round-plates', name: '9 Inch Round Plate', diameter: '225 MM', depth: '18 MM', material: 'Sugarcane Bagasse', image: 'https://customer-assets.emergentagent.com/job_eco-tableware-4/artifacts/cqex9tbt_rp-9.jpg' },
+  { id: 'rp-10', category: 'round-plates', name: '10 Inch Round Plate', diameter: '255 MM', depth: '23 MM', material: 'Sugarcane Bagasse', image: 'https://customer-assets.emergentagent.com/job_eco-tableware-4/artifacts/j9ymoj1k_rp-10.jpg' },
+  { id: 'rp-11', category: 'round-plates', name: '11 Inch Round Plate', diameter: '280 MM', depth: '23 MM', material: 'Sugarcane Bagasse', image: 'https://customer-assets.emergentagent.com/job_eco-tableware-4/artifacts/kpnucb2w_rp-11.jpg' },
   { id: 'rp-12', category: 'round-plates', name: '12 Inch Round Plate', diameter: '302 MM', depth: '24 MM', material: 'Sugarcane Bagasse', image: 'https://images.unsplash.com/photo-1633878353697-f751870d1d76?w=400' },
   
   // Square Plates
