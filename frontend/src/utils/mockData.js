@@ -37,14 +37,14 @@ export const products = [
   // Round Plates
   { id: 'rp-6', category: 'round-plates', name: '6 Inch Round Plate', diameter: '151 MM', depth: '18 MM', material: 'Sugarcane Bagasse', image: 'https://customer-assets.emergentagent.com/job_eco-tableware-4/artifacts/s3gfbt69_GreenEra%20Products%201-1%20%281%29.png' },
   { id: 'rp-7', category: 'round-plates', name: '7 Inch Round Plate', diameter: '175 MM', depth: '19.5 MM', material: 'Sugarcane Bagasse', image: 'https://customer-assets.emergentagent.com/job_eco-tableware-4/artifacts/ixdi6x9l_GreenEra%20Products%201-1%20%282%29.png' },
-  { id: 'rp-9', category: 'round-plates', name: '9 Inch Round Plate', diameter: '225 MM', depth: '18 MM', material: 'Sugarcane Bagasse', image: 'https://customer-assets.emergentagent.com/job_eco-tableware-4/artifacts/cqex9tbt_rp-9.jpg' },
+  { id: 'rp-9', category: 'round-plates', name: '9 Inch Round Plate', diameter: '225 MM', depth: '18 MM', material: 'Sugarcane Bagasse', image: 'https://customer-assets.emergentagent.com/job_eco-tableware-4/artifacts/9tz7m263_3.png' },
   { id: 'rp-10', category: 'round-plates', name: '10 Inch Round Plate', diameter: '255 MM', depth: '23 MM', material: 'Sugarcane Bagasse', image: 'https://customer-assets.emergentagent.com/job_eco-tableware-4/artifacts/j9ymoj1k_rp-10.jpg' },
-  { id: 'rp-11', category: 'round-plates', name: '11 Inch Round Plate', diameter: '280 MM', depth: '23 MM', material: 'Sugarcane Bagasse', image: 'https://customer-assets.emergentagent.com/job_eco-tableware-4/artifacts/kpnucb2w_rp-11.jpg' },
-  { id: 'rp-12', category: 'round-plates', name: '12 Inch Round Plate', diameter: '302 MM', depth: '24 MM', material: 'Sugarcane Bagasse', image: 'https://images.unsplash.com/photo-1633878353697-f751870d1d76?w=400' },
+  { id: 'rp-11', category: 'round-plates', name: '11 Inch Round Plate', diameter: '280 MM', depth: '23 MM', material: 'Sugarcane Bagasse', image: 'https://customer-assets.emergentagent.com/job_eco-tableware-4/artifacts/5p3emg62_4.png' },
+  { id: 'rp-12', category: 'round-plates', name: '12 Inch Round Plate', diameter: '302 MM', depth: '24 MM', material: 'Sugarcane Bagasse', image: 'https://customer-assets.emergentagent.com/job_eco-tableware-4/artifacts/cxtz90ez_5.png' },
   
   // Square Plates
-  { id: 'sp-1d', category: 'square-plates', name: '1D TRAY Square Plate', size: '137 MM X 137 MM', depth: '21 MM', material: 'Sugarcane Bagasse', image: 'https://images.pexels.com/photos/4397832/pexels-photo-4397832.jpeg?w=400' },
-  { id: 'sp-2cp', category: 'square-plates', name: '2 CP TRAY (Snack Tray)', size: '210MM X 128MM', depth: '24 MM', material: 'Sugarcane Bagasse', image: 'https://images.pexels.com/photos/19383384/pexels-photo-19383384.jpeg?w=400' },
+  { id: 'sp-1d', category: 'square-plates', name: '1D TRAY Square Plate', size: '137 MM X 137 MM', depth: '21 MM', material: 'Sugarcane Bagasse', image: 'https://customer-assets.emergentagent.com/job_eco-tableware-4/artifacts/dtlwtx5s_6.png' },
+  { id: 'sp-2cp', category: 'square-plates', name: '2 CP TRAY (Snack Tray)', size: '210MM X 128MM', depth: '24 MM', material: 'Sugarcane Bagasse', image: 'https://customer-assets.emergentagent.com/job_eco-tableware-4/artifacts/hjviaz05_7.png' },
   
   // Compartment Plates
   { id: 'cp-3sq', category: 'compartment-plates', name: '3CP Square Compartment', size: '215 MM x 215MM', depth: '24 MM', compartments: 3, material: 'Sugarcane Bagasse', image: 'https://images.pexels.com/photos/8287265/pexels-photo-8287265.jpeg?w=400' },
