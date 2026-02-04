@@ -67,6 +67,11 @@ class QuoteRequest(BaseModel):
     createdAt: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))
     updatedAt: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))
 
+# Health check endpoint (required for Kubernetes)
+@app.get("/health")
+async def health_check():
+    return {"status": "healthy", "service": "GreenEra API"}
+
 # Add your routes to the router instead of directly to app
 @api_router.get("/")
 async def root():
